@@ -15,7 +15,8 @@ function afficherBulle(nouvelIndex) {
     bulles.forEach(bulle => bulle.style.display = "none");
 
     // Afficher la nouvelle bulle
-    bulles[nouvelIndex].style.display = "block";
+    bulles[nouvelIndex].style.display = "flex";
+    bulles[nouvelIndex].style.flex = "space-around";
 
     // Mettre à jour l'index
     index = nouvelIndex;

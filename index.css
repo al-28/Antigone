@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -21,4 +22,22 @@ body {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    margin: auto;
+}
+
+footer {
+    margin-top: auto;
+    width: 100vw;
+    background-color: blue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: 400px;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
 }
